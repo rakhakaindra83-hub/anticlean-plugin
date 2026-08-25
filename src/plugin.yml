@@ -1,0 +1,14 @@
+name: AntiClean
+version: 1.0.0
+main: id.kuru.anticlean.AntiCheatPlugin
+api-version: '1.20'
+description: Anticheat lite - speed/fly/nofall/reach + VL system
+commands:
+  ac:
+    description: AntiClean admin
+    permission: anticlean.admin
+permissions:
+  anticlean.admin:
+    default: op
+  anticlean.alerts:
+    default: op
